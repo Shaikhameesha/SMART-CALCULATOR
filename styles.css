@@ -1,0 +1,24 @@
+/* styles.css */
+
+/* Center the calculator */
+body {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  max-width: 400px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.display {
+  background-color:white;
+  padding: 15px;
+  border-radius: 5px;
+  min-height: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
